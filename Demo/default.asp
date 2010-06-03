@@ -27,6 +27,7 @@ Function DisplayPage()
   
   <script type="text/javascript" src="scripts/mootools-1.2.4-core.js"></script>
   <script type="text/javascript" src="scripts/mootools-1.2.4-more-Drag.js"></script>
+  <script type="text/javascript" src="scripts/Mouse2Touch.js"></script>
   <script type="text/javascript" src="scripts/Drag.Fling.js"></script>
 </head>
 <body>

@@ -77,13 +77,6 @@ Drag.Fling = new Class({
 			
 		this.velocity = 0; // pixels per frame
 		this.spaceTimeMap = [[0, 0], [0, 0]];  // last drag step, the drag step before
-		
-		// to do: test/tweak this to capture ipod touch events in lieu of click events:
-	//	if(Browser.Platform == 'ipod) {
-	//		element.addEvent('touchstart', this.start.bind(this));
-	//		element.addEvent('touchmove', this.drag.bind(this));
-	//		element.addEvent('touchend', this.stop.bind(this));
-	//	}
 	},
 	
 	itemAxisSize: function(item) {

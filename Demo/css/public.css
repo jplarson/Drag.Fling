@@ -55,8 +55,8 @@ body {
 	width:					100%;
 	overflow:				hidden;
 	background:				#000;
-	-moz-border-radius:		10px;
-	-webkit-border-radius:	10px;
+	-moz-border-radius:		15px;
+	-webkit-border-radius:	15px;
 }
 
 .mainWindow #viewPort .page {
@@ -70,8 +70,8 @@ body {
 	-ms-filter:				"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#A00000, endColorstr=#400000)";
 	font-size:				16px;
 	float:					left;
-	-moz-border-radius:		10px;
-	-webkit-border-radius:	10px;
+	-moz-border-radius:		15px;
+	-webkit-border-radius:	15px;
 }
 
 .mainWindow .page .inner {

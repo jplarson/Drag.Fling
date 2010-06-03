@@ -9,15 +9,17 @@ How to Use
 
 Drag.Fling takes some careful setup of HTML elements and CSS, but no more than you would expect for the intended usage.  Consider the following HTML:
 
+  #HTML
   <div id="viewPort">
     <div class="panel"></div>
     <div class="panel"></div>
     <div class="panel"></div>
   </div>
 
-In our CSS we would (presumably) want to set the div.panel elements to have the same size as the #viewPort, and also we will most likely want #viewPort to have overflow: hidden.  Also, if panels are to be lined up horizontally, we must be sure that they are (this is done most easily by a float: left).  So we have, for example:
+In our CSS we would (presumably) want to set the div.panel elements to have the same size as the viewPort, and also we will most likely want viewPort to have overflow: hidden.  Also, if panels are to be lined up horizontally, we must be sure that they are (this is done most easily by a float: left).  So we have, for example:
 
-#viewPort {
+#CSS
+viewPort {
 	height:		400px;
 	width:		300px;
 	overflow:		hidden;

@@ -41,6 +41,7 @@ Drag.Fling Options
 ------------------
 
 There are a few options of Drag.Fling to customize its behavior:
+
 - maxVelocity, slideVelocity, minFlingVelocity, and slideFriction relate to the physics of sliding after the dragging ends, and all have the units pixels per frame.
 - flingAxis determines the axis of movement for the panels.  It defaults to 'x'. 'y' may be supplied for vertical movement.
 - onFlingDone is an event handler for when a fling is completed (i.e. when the fling ends due to reaching the threshhold of the next panel).

@@ -1,0 +1,134 @@
+/**************************************************************
+/* public.css
+/* jpl 11/06/09
+/*
+/*	Front end styles
+/*************************************************************/
+
+
+/*------------------------------------------------------------------------------*/
+/* SECTION::Global HTML Resets */
+
+* {
+	padding:				0;
+	margin:					0;
+}
+html {
+	padding:				0;
+	margin:					0;
+}
+
+body {
+	text-align:				left;
+	padding:				0;
+	margin:					20px 20px 20px 100px;
+	background:				#000;
+	font-family:			Tahoma, Verdana, Arial, Sans-Serif;
+	font-size:				12px;
+	color:					#888888;
+}
+
+/* End SECTION::Global HTML Resets
+/*------------------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------------------------------------------------------*/
+/* SECTION::Main window and pages within  */
+
+.mainWindow {
+	height:					450px;
+	width:					400px;
+	background:				#fff;
+	padding:				20px;
+	-moz-border-radius:		20px;
+	-webkit-border-radius:	20px;
+	margin:					auto;
+	color:					#FFF79F;
+	-moz-user-select:		none;
+	-webkit-user-select:	none;
+}
+
+.mainWindow #viewPort {
+	height:					100%;
+	width:					100%;
+	overflow:				hidden;
+	background:				#000;
+	-moz-border-radius:		10px;
+	-webkit-border-radius:	10px;
+}
+
+.mainWindow #viewPort .page {
+	position:				relative;
+	height:					450px;
+	width:					400px;
+	background:				#A00;
+	background:				-moz-linear-gradient(top, #900, #C00 30%, #400 90%);
+	background:				-webkit-gradient(linear, left top, left bottom, color-stop(0, #900000), color-stop(0.3, #c00000), color-stop(0.9, #400000));
+	filter:					progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#A00000, endColorstr=#400000);
+	-ms-filter:				"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#A00000, endColorstr=#400000)";
+	font-size:				16px;
+	float:					left;
+	-moz-border-radius:		10px;
+	-webkit-border-radius:	10px;
+}
+
+.mainWindow .page .inner {
+	padding:			20px 40px;
+}
+
+.page .pageContent {
+	margin-top:				30px;
+	background:				#400;
+	background:				-moz-linear-gradient(top, #300, #500 30%, #200 90%);
+	background:				-webkit-gradient(linear, left top, left bottom, color-stop(0, #300000), color-stop(0.3, #500000), color-stop(0.9, #200000));
+	filter:					progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#600000, endColorstr=#200000);
+	-ms-filter:				"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#600000, endColorstr=#200000)";
+	-moz-border-radius:		10px;
+	-webkit-border-radius:	10px;
+	padding:				10px 10px 10px 20px;
+	height:					300px;
+	
+}
+
+/* End SECTION::Main window and pages within
+/*------------------------------------------------------------------------------*/
+	
+
+
+
+
+/*------------------------------------------------------------------------------*/
+/* SECTION::Universal Utility  */
+	
+	.left       { float: left; }			td.left			{ text-align: left; }
+	.right      { float: right;}			td.right		{ text-align: right; }
+	.clear      { clear: both; }
+	
+	.inline		{ display: inline; }
+	.block		{ display: block; }
+	.inlineBlock{ display: inline-block; }
+	
+	.justify	{ text-align: justify; }
+	.bold		{ font-weight: 900; }
+	.relative	{ position: relative; }
+	.absolute	{ position: absolute; }
+	.clickable	{ cursor: pointer; }
+	
+	.center     { text-align: center; }				/* CENTER elements contained by me  */
+	.centered   { display: block; margin: 0 auto; } /* make me CENTERED in my container */
+	
+	.verticalMiddle td, td.verticalMiddle	{ vertical-align: middle; }
+	div.verticalMiddle						{ vertical-align: middle; }
+	.verticalMiddle>*						{ vertical-align: middle; }
+	
+	.hidden     	{ display: none; }
+	.truncatedText	{ overflow: hidden; }
+	.hideOverflow	{ overflow: hidden; }
+	
+	.nextElement	{ margin-top:  6px; }
+	.nextSection	{ margin-top: 16px; }
+	
+/* End SECTION::Universal Utility
+/*------------------------------------------------------------------------------*/

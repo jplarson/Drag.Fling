@@ -23,7 +23,7 @@ In our CSS we would (presumably) want to set the div.panel elements to have the 
 	#viewPort {
 		height:		400px;
 		width:		300px;
-		overflow:		hidden;
+		overflow:	hidden;
 	}
 	
 	div.panel {
